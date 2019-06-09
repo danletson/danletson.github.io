@@ -6405,17 +6405,11 @@ html.edge .pill--big-blue:focus {
   animation: pulse 1.5s ease-in-out infinite;
 }
 
-.dl-tooltip::after{
-  opacity: 0;
-  transition: all .2s ease-in-out;
-}
-
-.dl-tooltip[data-note]:hover::after {
+.dl-tooltip:hover::after {
   opacity: 1;
   content: attr(data-note);
   position: absolute;
-  left: calc(100% - 16rem);
-  top: 2rem;
+  top: 1.5rem;
   width: 30rem;
   border: 1px #aaaaaa solid;
   background-color: white;
@@ -6426,14 +6420,17 @@ html.edge .pill--big-blue:focus {
   z-index: 1;
 }
 
-/* .dl-tooltip:after{
-  content: attr(data-note);
-  background: white;
-  border: 1px solid #444;
-  display: block;
-  width: 200px;
-  animation: none;
-} */
+.--left.dl-tooltip[data-note]:hover::after{
+  left: 1.5rem;
+}
+
+.--right.dl-tooltip[data-note]:hover::after{
+  right: 1.5rem;
+}
+
+.--middle.dl-tooltip[data-note]:hover::after{
+  left: calc(100% - 1.5rem);
+}
 
 .--left{
   left: 0;
