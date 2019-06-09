@@ -22,4 +22,4 @@ Both sites are marked with red dots 🔴, which, when hovered over, provide anno
 
 ## Further Considerations
 
-The vast majority of the changes proposed are simple enough to enable extensive A/B and multivariate testing. With more time and resources, I would love to have been able to build out mobile styling, spend more time with type hierarchies, explore animation, and derive a stand-alone style guide to more rigorously vet the changes outside of the homepage's specific context.
+The vast majority of the changes proposed are simple enough to enable extensive A/B and multivariate testing. With more time and resources, I would love to have been able to build out mobile styling, do cross-browser testing, spend more time with type hierarchies, explore animation, and derive a stand-alone style guide to more rigorously vet the changes outside of the homepage's specific context.
