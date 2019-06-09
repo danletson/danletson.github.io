@@ -16,10 +16,10 @@ As someone with experience in marketing, I did my best to think of how to remove
 
 An annotated version of the original LinkedIn.com design can be found [here](https://danletson.github.io/linkedin-redesign/original).
 
-A redesigned version can be found [here](https://danletson.github.io/linkedin-redesign/redesign/)
+A redesigned version can be found [here](https://danletson.github.io/linkedin-redesign/redesign/).
 
 Both sites are marked with red dots 🔴, which, when hovered over, provide annotations explaining my thought process. Please view both sites on a desktop, in Chrome.  
 
 ## Further Considerations
 
-The vast majority of the changes proposed are simple enough to enable extensive A/B and multivariate testing. With more time and resources, I would love to have been able to build out mobile styling, spend more time with type hierarchies, explore animation, and derive a stand-alone style guide to more rigorously vet the changes outside of the homepage's specific context. 
+The vast majority of the changes proposed are simple enough to enable extensive A/B and multivariate testing. With more time and resources, I would love to have been able to build out mobile styling, spend more time with type hierarchies, explore animation, and derive a stand-alone style guide to more rigorously vet the changes outside of the homepage's specific context.
